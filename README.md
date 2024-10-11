@@ -10,6 +10,8 @@ New account made:code 192: Welcome to Github!"
 Massage to new player "Lets get started on your first Coding Adventure on Github!"
 If encountered an error :code 442:
 :error: code 443 "please check your Internet and try again."
+
+
 Bottom ":("
 
 
@@ -44,3 +46,29 @@ Bottom ":("
 
 
 struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+
+{
+  "rules": {
+    "foo": {
+      ".validate": "newData.isString() && newData.val().length < 100"
+    }
+  }
+}
+
+
+
+
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+
+
+	nb|.
